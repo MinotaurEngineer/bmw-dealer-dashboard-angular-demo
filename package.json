@@ -5,7 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "watch": "ng build --watch --configuration development"
+    "angular:watch": "ng build --watch --configuration development",
+    "wrangler:watch": "wrangler pages dev dist/cloudflare --live-reload"
   },
   "prettier": {
     "printWidth": 100,
